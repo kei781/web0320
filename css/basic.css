@@ -26,9 +26,11 @@ div.menuitem h2 {
 div.menuitem p {
 	width: 90%;
 	font-size: 14pt;
+	display: none;
 }
 
-/*
+
+
 div.menuitem p img {
 	float: left;
 	margin: 3px 30px 3px 60px;
@@ -39,4 +41,10 @@ div.menuitem p img {
 div.menuitem h2:hover {
 	color: cyan;
 	background-color: gray;
+}
+
+div.menuitem:hover p{
+	color: cyan;
+	background-color: green;
+	display: inline;
 }
